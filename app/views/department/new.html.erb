@@ -1,0 +1,14 @@
+<h1>Add new department</h1>
+<%= form_tag :action => 'create' %>
+<p><label for="code">code</label>:
+  <%= text_field 'department', 'code' %></p>
+<p><label for="name">name</label>:
+   <%= text_field 'department', 'name' %></p>
+<%= submit_tag "Create" %>
+<%= form_tag %>
+<li>
+<b> <%= link_to 'back',:controller => 'User', :action => 'list' %></b>
+</li>
+<li>
+<b> <%= link_to 'department_list',:controller => 'Department', :action => 'list' %></b>
+</li>

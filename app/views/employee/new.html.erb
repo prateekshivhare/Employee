@@ -1,0 +1,34 @@
+<h1>Add new employee</h1>
+         <%=       form_tag :action => 'create' %>
+<p><label for="first_name">First_name</label>:
+<%= text_field 'employee', 'first_name' %></p>
+<p><label for="last_name">last_name</label>:
+<%= text_field 'employee', 'last_name' %></p>
+<p><label for="address1">Address1</label>:
+<%= text_field 'employee', 'address1' %></p>
+<p><label for="address2">Address2</label>:
+<%= text_field 'employee', 'address2' %></p>
+<p><label for="  city ">City </label>:
+<%= text_field 'employee', 'city' %></p>
+<p><label for="city">State</label>:
+<%= text_field 'employee', 'state' %></p>
+<p><label for="phone1">Phone1</label>  :
+<%= text_field 'employee', 'phone1' %></p>
+<p><label for="manager_id">Manager_id</label>:
+<%= text_field 'employee', 'manager_id' %></p>
+
+
+
+
+<p><label for="designation_id">Designation_id</label>:
+  <%= collection_select('employee',:designation_id,Designation.all,:name,:name) %></p>
+
+
+<%= submit_tag "Create" %>
+<%= form_tag %>
+<li>
+<b> <%= link_to 'back',:controller => 'User', :action => 'list' %></b>
+</li>
+<li>
+<b> <%= link_to 'list',:controller => 'Employee', :action => 'list' %></b>
+</li>

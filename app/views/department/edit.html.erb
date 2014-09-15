@@ -1,0 +1,12 @@
+<h1>Edit Department Detail</h1>
+<%=form_tag :action => 'update', :id => @department %>
+<p><label for="code">code</label>:
+  <%= text_field 'department', 'code' %></p>
+<p><label for="name">name</label>:
+   <%= text_field 'department', 'name' %></p>
+
+
+
+<%= submit_tag "Save changes" %>
+<%= form_tag %>
+<%= link_to 'Back', {:action => 'list' } %>

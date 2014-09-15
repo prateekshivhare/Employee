@@ -1,0 +1,23 @@
+
+body {
+   font-family: Helvetica, Geneva, Arial, sans-serif;
+   font-size: small;
+   font-color: black ;
+   background-color: #99ccff;
+    background-repeat: repeat-x;
+    background-attachment: inherit;
+    background-position: left right;
+    vertical-align: baseline;
+    text-align: right;
+    direction: ltr;
+}
+ul#employee {
+   width: 700px;
+   text-align: right;
+   padding: 5px;
+   background-color: #ececec;
+   border: 1px solid #ccc;
+   margin-bottom: 20px;
+    vertical-align: baseline;
+    direction: ltr;
+}

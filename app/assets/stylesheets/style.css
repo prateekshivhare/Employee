@@ -1,0 +1,63 @@
+body {
+   font-family: Helvetica, Geneva, Arial, sans-serif;
+   font-size: small;
+   font-color: black ;
+   background-color: #99ccff;
+    background-repeat: repeat-x;
+    background-attachment: inherit;
+    background-position: left right;
+    text-indent: 10px;
+    word-spacing: 10px;
+    text-align: right;
+    line-height: normal;
+}
+a:link, a:active, a:visited {
+   color: #CD0000;
+    text-align: center;
+}
+input {
+   margin-bottom: 5px;
+}
+p {
+   line-height: 150%;
+}
+div#container {
+   width: 760px;
+   margin: 0 auto;
+}
+div#header {
+   text-align: center;
+   padding-bottom: 15px;
+}
+div#content {
+   float: left;
+   width: 450px;
+   padding: 10px;
+}
+div#content h3 {
+   margin-top: 15px;
+}
+ul#emails {
+   list-style-type: none;
+}
+ul#books li {
+   line-height: 140%;
+}
+div#sidebar {
+   width: 200px;
+   margin-left: 480px;
+}
+ul#employee {
+   width: 700px;
+   text-align: right;
+   padding: 5px;
+   background-color: #ececec;
+   border: 1px solid #ccc;
+   margin-bottom: 20px;
+    vertical-align: baseline;
+    direction: ltr;
+}
+ul#subjects li {
+   display: inline;
+   padding-left: 5px;
+}
